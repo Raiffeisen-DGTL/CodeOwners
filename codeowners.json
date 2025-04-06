@@ -1,0 +1,48 @@
+{
+  "paths" : {
+    "\/.gitlab-ci.yml" : [
+      "Команда 1"
+    ],
+    "\/Modules" : [
+      "Команда 2"
+    ],
+    "\/SomeFolder\/SomeFile.txt" : [
+      "Команда 2"
+    ]
+  },
+  "teams" : [
+    {
+      "description" : "Пример команды, отвечающей за файл",
+      "name" : "Команда 1",
+      "team" : [
+        "userLogin1",
+        "userLogin2"
+      ]
+    },
+    {
+      "description" : "Пример команды, отвечающей за папку и файл",
+      "name" : "Команда 2",
+      "team" : [
+        "userLogin2",
+        "userLogin3"
+      ]
+    }
+  ],
+  "users" : [
+    {
+      "gitlab_id" : 3684,
+      "name" : "SURNAME Name",
+      "username" : "userLogin1"
+    },
+    {
+      "gitlab_id" : 4952,
+      "name" : "SECONDNAME FirstName",
+      "username" : "userLogin2"
+    },
+    {
+      "gitlab_id" : 5110,
+      "name" : "MAN WitoutName",
+      "username" : "userLogin3"
+    }
+  ]
+}
